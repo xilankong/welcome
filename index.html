@@ -1,29 +1,19 @@
 <!DOCTYPE html>
 <html lang="zh">
-    <head>
+<head>
 <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>index</title>
-
-        <link rel="stylesheet" href="build/styles.css">
-    </head>
-
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>welcome</title>
+<link rel="stylesheet" href="build/styles.css">
+</head>
     <body>
         <div class="outer">
             <div class="inner">
                 <div class="wrapper">
                     <div class="scene">
                         <div>- <span id="vader"></span></div>
-
                     </div>
-<!--
-                    <pre id="nodebug"><code>
-  theater.write(
-    <span id="log"></span>
-  );
-                    </code></pre> -->
-                    <p><a href="https://xilankong.github.io" target="_blank">yang</a></p>
                 </div>
             </div>
         </div>
@@ -31,8 +21,6 @@
         <script>
             (function () {
                 "use strict";
-
-                // var $log    = document.querySelector("#log");
                 var theater = new TheaterJS();
 
                 theater
@@ -54,8 +42,8 @@
 
                 theater
                     .write("Vader:Hope is a good thing...", -3, ", maybe the best things. ", 400, "And no good thing ever dies! ", 500, toggleClass)
-.write(-15)
-.write("Vader:I'll be back.", toggleClass)
+                    .write(-15)
+                    .write("Vader:I'll be back.", toggleClass)
                     .write({ name: "call", args: [kill, true] })
                     //.write("Luke:That's not true!", 400)
                     //.write("Luke:That's impossible!", toggleClass)
