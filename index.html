@@ -44,14 +44,14 @@
                     // .write("Vader:Hope is a good thing...", -3, ", maybe the best things. ", 400, "And no good thing ever dies! ", 500, toggleClass)
                     .write("Vader:I'll be back.", toggleClass)
                     // .write("Vader:I'll be back.", toggleClass)
-                    .write({ name: "call", args: [kill, true] })
+                    // .write({ name: "call", args: [kill, true] })
                     //.write("Luke:That's not true!", 400)
                     //.write("Luke:That's impossible!", toggleClass)
                     ///.write("Vader:Search your feelings.", 1600)
                     //.write("Vader:You know it to be true.", 1000, toggleClass)
                     //.write("Luke:Noooooooo! ", 400, "No!", toggleClass)
 
-                    .write(function () { theater.play(true); });
+                    // .write(function () { theater.play(true); });
 
                 var body = document.getElementsByTagName("BODY")[0];
 
@@ -70,7 +70,7 @@
                             if (++i < 6) timeout = setTimeout(blink, delay);
                             else self.next();
                         }, delay);
-                     var $log    = document.querySelector("#Vader");
+                     var $log    = document.getElementsBy
                         alert($log)
                     return self;
                 }
