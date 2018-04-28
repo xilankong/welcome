@@ -76,10 +76,12 @@
                     return self;
                 }
                 function hide () {
-                     var self    = this,
-                        current = self.current.voice;
-
-                    self.utils.removeClass(current, "saying");
+                        var self    = this,
+                        delay   = 300,
+                        timeout = setTimeout(function blink () {
+                             current = self.current.voice;
+                            self.utils.removeClass(current, "saying");
+                        }, delay);
                 }
             })();
         </script>
