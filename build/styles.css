@@ -55,5 +55,5 @@ p{
 }
 @media screen and (max-width: 700px) {
 .wrapper{width: 300px;}
-.scene{font-size:100%;font-weight:400;line-height:1.6}
+.scene{font-size:200%;font-weight:300;line-height:1.6}
 }
