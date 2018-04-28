@@ -41,9 +41,9 @@
                     });
 
                 theater
-                    .write("Vader:Hope is a good thing...", -3, ", maybe the best things. ", 400, "And no good thing ever dies! ", 500, toggleClass)
-                    .write(-15)
+                    // .write("Vader:Hope is a good thing...", -3, ", maybe the best things. ", 400, "And no good thing ever dies! ", 500, toggleClass)
                     .write("Vader:I'll be back.", toggleClass)
+                    // .write("Vader:I'll be back.", toggleClass)
                     .write({ name: "call", args: [kill, true] })
                     //.write("Luke:That's not true!", 400)
                     //.write("Luke:That's impossible!", toggleClass)
@@ -71,7 +71,7 @@
                             else self.next();
                         }, delay);
                      var $log    = document.querySelector("#Vader");
-                        $log.innerHTML=''
+                        alert($log)
                     return self;
                 }
             })();
