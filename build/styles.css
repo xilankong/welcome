@@ -47,10 +47,10 @@ p{
 	font-size:200%;font-weight:300;line-height:1.6
 }
 .saying:after{
-	content:"|";font-family:Cutive, sans-serif;
-	font-size:1.0em;line-height:1.6;
-display:inline-block;vertical-align:baseline;
-opacity:1;-webkit-animation:caret 1500ms infinite;animation:caret 1500ms infinite
+content:"|";font-family:Cutive;
+font-size:1.0em;line-height:1.6;display:inline-block;vertical-align:baseline;opacity:1;
+-webkit-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
 }
 @media screen and (max-width: 700px) {
 .wrapper{width: 300px;}
