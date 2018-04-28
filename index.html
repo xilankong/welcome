@@ -42,7 +42,7 @@
 
                 theater
                     // .write("Vader:Hope is a good thing...", -3, ", maybe the best things. ", 400, "And no good thing ever dies! ", 500, toggleClass)
-                    .write("Vader:Don't worry,", 900, " And I'll be back! ")
+                    .write("Vader:Don't worry,", 900, " And I'll be back! ", 300)
                     .write({ name: "call", args: [hide, true] })
                     // .write("Vader:I'll be back.", toggleClass)
                     // .write({ name: "call", args: [kill, true] })
@@ -76,14 +76,9 @@
                     return self;
                 }
                 function hide () {
-                        var self    = this,
-                        delay   = 300,
-                        i       = 0,
-                        timeout = setTimeout(function blink () {
-                            current = self.current.voice;
-                            self.utils.removeClass(current, "saying");
-                        }, delay);
-                    return self;
+                     var self    = this,
+                        current = self.current.voice;
+                    self.utils.removeClass(current, "saying");
                 }
             })();
         </script>
