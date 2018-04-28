@@ -50,7 +50,8 @@ p{
 	content:"|";font-family:Cutive;
 	font-size:1.0em;line-height:1.6;
 	display:inline-block;vertical-align:baseline;opacity:1;
-	-webkit-animation:caret 1000ms infinite;animation:caret 1000ms infinite
+	-webkit-animation:caret 1100ms infinite;
+	animation:caret 1100ms infinite;
 }
 @media screen and (max-width: 700px) {
 .wrapper{width: 300px;}
