@@ -28,8 +28,8 @@ html,body{
 	left: 0px;
 	margin-bottom: 30px;
 	width: 100px;
-	height: 100px;
-	border-radius:50%; overflow:hidden
+	height: 80px;
+	/*border-radius:50%; overflow:hidden*/
 }
 .scene{
 	font-size:200%;font-weight:300;line-height:1.6
